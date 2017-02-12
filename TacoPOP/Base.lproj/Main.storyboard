@@ -52,7 +52,7 @@
                                 <cells/>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="HbF-ez-15K" secondAttribute="trailing" id="0tN-3G-UVj"/>
                             <constraint firstItem="HbF-ez-15K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4SY-Ja-NXv"/>

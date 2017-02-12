@@ -19,12 +19,12 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Brisket" translatesAutoresizingMaskIntoConstraints="NO" id="whJ-GD-lcQ">
-                        <rect key="frame" x="0.0" y="0.0" width="386" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="386" height="405"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brisket Taco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQo-Jz-A9M">
-                        <rect key="frame" x="0.0" y="385" width="386" height="50"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brisket Taco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="HQo-Jz-A9M">
+                        <rect key="frame" x="0.0" y="415" width="386" height="20"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="50" id="xXh-sF-QRg"/>
+                            <constraint firstAttribute="height" constant="20" id="xXh-sF-QRg"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                         <nil key="textColor"/>
