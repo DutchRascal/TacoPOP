@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,21 +40,37 @@
                                     <constraint firstItem="tpL-ZX-GtL" firstAttribute="centerY" secondItem="HbF-ez-15K" secondAttribute="centerY" id="W8J-Lq-UlR"/>
                                 </constraints>
                             </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3fl-eh-MkA">
+                                <rect key="frame" x="16" y="100" width="288" height="448"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Bp5-I6-Hfw">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="HbF-ez-15K" secondAttribute="trailing" id="0tN-3G-UVj"/>
                             <constraint firstItem="HbF-ez-15K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4SY-Ja-NXv"/>
                             <constraint firstItem="HbF-ez-15K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="B42-2c-seZ"/>
+                            <constraint firstItem="3fl-eh-MkA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="O3a-h9-BF6"/>
+                            <constraint firstItem="3fl-eh-MkA" firstAttribute="top" secondItem="HbF-ez-15K" secondAttribute="bottom" constant="20" id="VMu-fM-0qo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3fl-eh-MkA" secondAttribute="bottom" constant="20" id="hyg-YR-wDV"/>
+                            <constraint firstItem="3fl-eh-MkA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="uDl-8E-kZs"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="collectionView" destination="3fl-eh-MkA" id="IFx-Qr-3bH"/>
                         <outlet property="headerView" destination="HbF-ez-15K" id="wQZ-sB-a7i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
     </scenes>
     <resources>
